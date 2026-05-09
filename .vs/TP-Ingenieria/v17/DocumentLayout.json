@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\benit\\Downloads\\Ingeniria de Software\\TP-Ingenieria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4812178-D8ED-4B10-8A31-22302AD7C6BF}|TP-Ingenieria\\TP-Ingenieria.csproj|c:\\users\\benit\\downloads\\ingeniria de software\\tp-ingenieria\\tp-ingenieria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4812178-D8ED-4B10-8A31-22302AD7C6BF}|TP-Ingenieria\\TP-Ingenieria.csproj|solutionrelative:tp-ingenieria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 250,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\benit\\Downloads\\Ingeniria de Software\\TP-Ingenieria\\TP-Ingenieria\\Form1.cs",
+              "RelativeDocumentMoniker": "TP-Ingenieria\\Form1.cs",
+              "ToolTip": "C:\\Users\\benit\\Downloads\\Ingeniria de Software\\TP-Ingenieria\\TP-Ingenieria\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP-Ingenieria\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:47:26.564Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
