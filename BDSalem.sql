@@ -1,0 +1,38 @@
+CREATE DATABASE SalemCoffeeShop;
+GO
+
+USE SalemCoffeeShop;
+GO
+
+
+CREATE TABLE Rol (
+    IdRol INT IDENTITY(1,1) PRIMARY KEY,
+    NombreRol VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Usuario (
+    IdUsuario INT IDENTITY(1,1) PRIMARY KEY,
+    Usuario VARCHAR(50) NOT NULL UNIQUE,
+    Nombre VARCHAR(100) NOT NULL,
+    Clave VARCHAR(64) NOT NULL,
+    IdRol INT NOT NULL,
+    Activo BIT NOT NULL DEFAULT 1,
+    Bloqueado BIT NOT NULL DEFAULT 0,
+    IntentosFallidos INT NOT NULL DEFAULT 0,
+    FechaAlta DATETIME NOT NULL DEFAULT GETDATE(),
+
+    CONSTRAINT FK_Usuario_Rol FOREIGN KEY (IdRol)
+    REFERENCES Rol(IdRol)
+);
+
+CREATE TABLE Bitacora (
+    IdBitacora INT IDENTITY(1,1) PRIMARY KEY,
+    IdUsuario INT NULL,
+    Usuario VARCHAR(50) NULL,
+    Accion VARCHAR(100) NOT NULL,
+    Descripcion VARCHAR(255) NULL,
+    FechaHora DATETIME NOT NULL DEFAULT GETDATE(),
+
+    CONSTRAINT FK_Bitacora_Usuario FOREIGN KEY (IdUsuario)
+    REFERENCES Usuario(IdUsuario)
+);
