@@ -76,5 +76,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE_Salem\BE_Salem.csproj">
+      <Project>{bea0a885-f84a-43e3-a93e-eddeca3e3141}</Project>
+      <Name>BE_Salem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL_Salem\BLL_Salem.csproj">
+      <Project>{a7da6e5e-16ca-4797-9836-7f257a9a1de5}</Project>
+      <Name>BLL_Salem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios_Salem\Servicios_Salem.csproj">
+      <Project>{013735a2-ba05-4046-9dd1-a2ca2c57452f}</Project>
+      <Name>Servicios_Salem</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
