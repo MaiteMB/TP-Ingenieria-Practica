@@ -25,5 +25,11 @@ namespace Servicios_Salem
                 return builder.ToString();
             }
         }
+        public static bool CompararHash(string texto, string hashGuardado)
+        {
+            string nuevoHash = GenerarHash(texto);
+
+            return nuevoHash == hashGuardado;
+        }
     }
 }
