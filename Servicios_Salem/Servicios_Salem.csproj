@@ -46,5 +46,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SesionManager.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE_Salem\BE_Salem.csproj">
+      <Project>{bea0a885-f84a-43e3-a93e-eddeca3e3141}</Project>
+      <Name>BE_Salem</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
