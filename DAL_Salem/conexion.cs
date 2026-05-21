@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace DAL_Salem
 {
-    public class conexion
+    public class Conexion
     { 
         private static string _cadena = "Data Source=Maite15\\MSSQLSERVER01;Initial Catalog=SalemCoffeeShop;Integrated Security=True;";
 
