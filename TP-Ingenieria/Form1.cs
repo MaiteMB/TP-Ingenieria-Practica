@@ -16,5 +16,18 @@ namespace TP_Ingenieria
         {
             InitializeComponent();
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            lblMensaje.Text = "";
+
+            if (string.IsNullOrWhiteSpace(txtUsuario.Text) || string.IsNullOrWhiteSpace(txtClave.Text))
+            {
+                lblMensaje.Text = "Ingrese usuario y clave para continuar.";
+                return;
+            }
+
+            lblMensaje.Text = "Login pendiente de conectar con la capa BLL.";
+        }
     }
 }
