@@ -29,5 +29,15 @@ namespace TP_Ingenieria
 
             lblMensaje.Text = "Login pendiente de conectar con la capa BLL.";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

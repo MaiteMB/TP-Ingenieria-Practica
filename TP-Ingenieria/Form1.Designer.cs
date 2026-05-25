@@ -105,7 +105,7 @@
             this.txtClave.SelectedText = "";
             this.txtClave.SelectionLength = 0;
             this.txtClave.SelectionStart = 0;
-            this.txtClave.Size = new System.Drawing.Size(296, 38);
+            this.txtClave.Size = new System.Drawing.Size(296, 39);
             this.txtClave.TabIndex = 5;
             this.txtClave.TabStop = false;
             this.txtClave.UseSystemPasswordChar = true;
@@ -117,7 +117,7 @@
             this.lblClave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(62)))), ((int)(((byte)(43)))));
             this.lblClave.Location = new System.Drawing.Point(42, 193);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(43, 17);
+            this.lblClave.Size = new System.Drawing.Size(49, 21);
             this.lblClave.TabIndex = 4;
             this.lblClave.Text = "Clave";
             // 
@@ -139,10 +139,11 @@
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.SelectionLength = 0;
             this.txtUsuario.SelectionStart = 0;
-            this.txtUsuario.Size = new System.Drawing.Size(296, 38);
+            this.txtUsuario.Size = new System.Drawing.Size(296, 39);
             this.txtUsuario.TabIndex = 3;
             this.txtUsuario.TabStop = false;
             this.txtUsuario.UseSystemPasswordChar = false;
+            this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
             // 
             // lblUsuario
             // 
@@ -151,7 +152,7 @@
             this.lblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(62)))), ((int)(((byte)(43)))));
             this.lblUsuario.Location = new System.Drawing.Point(42, 115);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(53, 17);
+            this.lblUsuario.Size = new System.Drawing.Size(65, 21);
             this.lblUsuario.TabIndex = 2;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -179,7 +180,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(226)))), ((int)(((byte)(211)))));
             this.ClientSize = new System.Drawing.Size(800, 488);
@@ -190,9 +191,11 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Salem Coffee Shop - Login";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panelLogin.ResumeLayout(false);
             this.panelLogin.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion
